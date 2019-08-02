@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript">
+   setInterval(function(){
+	 var img = $("<img src='../../imags1/bg.jpg'>");
+	   img.css("position","absolute");
+	   img.css("width","10px");
+	   img.css("height","10px");
+	   var left = parseInt(Math.random()*1000);
+	   img.css("left",left+"px");
+	   $("body").append(img);
+	   
+	   img.animate({"top":"640px"},3000);
+  },500);
+  
+</script>
+</head>
+<body>
+   
+</body>
+</html>

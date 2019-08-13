@@ -68,7 +68,7 @@
       position: absolute;
       top:271px;
       left: 80px;
-      background-image: url("../../imags1/bg4.gif");
+      background-image: url("../imags1/bg4.gif");
       background-repeat: no-repeat;
       background-size: 100% 100%;
       overflow: hidden;
@@ -100,7 +100,7 @@
     #d10{
       width: 333px;
       height: 300px;
-      background-image: url("../../imags1/xie3.jpg");
+      background-image: url("../imags1/xie3.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       margin-left: 120px;
@@ -109,7 +109,7 @@
     #d11{
       width: 333px;
       height: 300px;
-      background-image: url("../../imags1/xie2.jpg");
+      background-image: url("../imags1/xie2.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       margin-left: 490px;
@@ -121,7 +121,7 @@
      #d12{
       width: 333px;
       height: 300px;
-      background-image: url("../../imags1/xie4.jpg");
+      background-image: url("../imags1/xie4.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       margin-left: 864px;
@@ -310,9 +310,10 @@
      cursor: pointer;
    }
    #s1{
+   font-size:12px;
    position:absolute;
-   margin-left: 700px;
-   top: 20px;
+   margin-left: 684px;
+   top: 21px;
    }
    
    #s2{

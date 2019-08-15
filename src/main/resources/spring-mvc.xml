@@ -43,7 +43,19 @@
 	
 	<!-- 注解驱动 -->
 	<mvc:annotation-driven />
-	
+	<!-- 拦截器链 -->
+	<mvc:interceptors>
+	   <!-- 登录拦截器 -->
+	   <mvc:interceptor>
+	   <!-- 拦截路径 -->
+	   <mvc:mapping path="/user/**"/>
+	   
+	   <!-- 白名单 -->
+	   <mvc:exclude-mapping path="/user/handle_reg.do"/>
+	   <mvc:exclude-mapping path="/user/handle_login.do"/>
+	   <bean class="cn.cmh.myproject.interceptor.LoginInterceptor" />
+	   </mvc:interceptor>
+	</mvc:interceptors>
 	
 	
 </beans>

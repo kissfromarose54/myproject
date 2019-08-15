@@ -4,6 +4,8 @@ public class ResponseResult<T> {
 	private Integer state = 200;
 	private String msg;
 	private T data;
+	
+	
 	public Integer getState() {
 		return state;
 	}
@@ -24,12 +26,17 @@ public class ResponseResult<T> {
 	}
 	public ResponseResult() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public ResponseResult(Integer state, String msg) {
 		super();
 		this.state = state;
 		this.msg = msg;
+	}
+	public ResponseResult(Integer state, Exception e) {
+		super();
+		this.state = state;
+		this.msg = e.getMessage();
 	}
 	
 	

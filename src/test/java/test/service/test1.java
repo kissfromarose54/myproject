@@ -16,12 +16,20 @@ public class test1 {
 	@Test
 	public void reg() {
 		User user = new User();
-		user.setUsername("balala3");
-		user.setPassword("555544");
+		user.setUsername("cmhz");
+		user.setPassword("1223");
 		System.out.println("user: "+user);
 		User re = userService.reg(user);
 		System.out.println(re);
 	}
+	
+	@Test
+	public void login() {
+		User re = new User();
+		re = userService.login("cmhz", "1223");
+		System.out.println("re:"+re);
+	}
+	
 	
 	@Before
 	public void doBefore() {

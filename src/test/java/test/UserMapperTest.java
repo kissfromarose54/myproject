@@ -39,6 +39,14 @@ public class UserMapperTest {
 	}
 	
 	
+	@Test
+	public void findUser() {
+		String username = "root";
+		User user = userMapper.findUserByUsername(username);
+		System.out.println(user);
+	}
+	
+	
 	@Before
 	public void doBefore() {
 		ac = new ClassPathXmlApplicationContext("spring-dao.xml");

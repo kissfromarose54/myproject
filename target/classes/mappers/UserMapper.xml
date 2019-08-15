@@ -15,7 +15,7 @@
       <result  column="salt"  property="salt"/>
       <result  column="gender"  property="gender"/>
       <result  column="create_user"  property="create_user"/>
-      <result  column="create_time"  property="create_usertime"/>
+      <result  column="create_time"  property="create_time"/>
       <result  column="modified_user"  property="modified_user"/>
       <result  column="modified_time"  property="modified_time"/>
     </resultMap>
@@ -57,6 +57,7 @@
 	<select id="findUserByUsername" resultMap="UserEntityMap">
 	  SELECT * FROM t_user WHERE username=#{username}
 	</select>
+	
 </mapper>
 
 

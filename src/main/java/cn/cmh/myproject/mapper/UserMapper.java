@@ -6,4 +6,5 @@ public interface UserMapper {
 	Integer insert(User user);
 	
 	User findUserByUsername(String username);
+	
 }

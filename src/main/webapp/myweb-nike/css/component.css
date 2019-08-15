@@ -21,7 +21,7 @@
 	left: 50%;
 	top:50%;
 	margin-left: -200px;
-	margin-top: -250px;
+	margin-top: -280px;
 }
 .logo_box h3{
 	text-align: center;
@@ -81,10 +81,26 @@
 	outline: none;
 	display: inline-block;
 	font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	color:#ffffff;
 	margin-left: 50px;
 	border: none;
 	background: none;
 	line-height: 46px;
+}
+
+#text-reg{
+	width: 220px;
+	height: 46px;
+	outline: none;
+	display: inline-block;
+	font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	color:#ffffff;
+	position:absolute;
+	margin-left: 210px;
+	margin-top:-47px;
+	border: none;
+	background: none;
+	
 }
 /*///*/
 .mb2{
